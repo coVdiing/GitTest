@@ -32,5 +32,6 @@
 		<mapper class="org.fkit.hrm.dao.JobDao"/>
 		<mapper class="org.fkit.hrm.dao.EmployeeDao"/>
 		<mapper class="org.fkit.hrm.dao.NoticeDao"/>
+		<mapper class="org.fkit.hrm.dao.DocumentDao"/>
 	</mappers>
 </configuration>
