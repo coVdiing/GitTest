@@ -23,7 +23,7 @@ public interface JobDao {
 	
 	//动态查询
 	@SelectProvider(type=JobDynaSqlProvider.class,method="selectWithParam")
-	public List<Job> selectWithParam(Map<String,Object> params);
+	public List<Job> selectByPage(Map<String,Object> params);
 	
 	//动态查询总数量
 	@SelectProvider(type=JobDynaSqlProvider.class,method="count")

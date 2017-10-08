@@ -36,7 +36,7 @@ public class JobDaoTest {
 		Job job = new Job();
 		job.setName("理");
 		params.put("job", job);
-		List<Job> jobs = jd.selectWithParam(params);
+		List<Job> jobs = jd.selectByPage(params);
 		for(Job job2 : jobs) {
 			System.out.println(job2);
 		}
